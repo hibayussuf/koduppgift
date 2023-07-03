@@ -1,0 +1,186 @@
+body{
+    
+        background-image: url("computer\ aesthetic\ wallpaper.jpeg");
+        background-color: rgba(0, 0, 0, 0.5);
+    
+      
+
+    
+    }
+
+
+
+  .img-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  
+  .img-item {
+    margin-right: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-info {
+    margin-top: 10px;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+
+  .row a{
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    font-style: italic;
+    
+  }
+  
+  @media (max-width: 368px) {
+    .img-container {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      overflow-x: hidden;
+    }
+  
+    .img-item {
+      flex-basis: calc(50% - 10px);
+      margin-bottom: 20px;
+    }
+  }
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*.column {
+    float: left;
+    width: 12%;
+    padding: 5px;
+  }
+
+  /* Clear floats after image containers */
+  /*.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .roundd{
+    border-radius: 50%;
+  }
+
+  .roundde{
+    border-radius: 50%;
+    height: 129px;
+    width: 129px;
+    object-fit: cover;
+
+  }
+
+  @media (max-width: 368px) {
+    .column {
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      overflow-x: hidden;
+    }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  
+
+
+
+  .column {
+    flex-basis: 10.66%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .image-info {
+    margin-top: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+  
+  .roundd {
+    border-radius: 50%;
+  }
+  
+  .roundde {
+    border-radius: 50%;
+    height: 129px;
+    width: 129px;
+    object-fit: cover;
+  }
+  .btn{
+    background-color: pink;
+    width: 90px;
+    border-radius: 12px;
+    border: none;
+  }
+  .btn:hover{
+    background-color: palevioletred;
+  }
+  
+  @media (max-width: 368px) {
+    .column {
+      flex-basis: 50%;
+    }
+  }
+  
+  
